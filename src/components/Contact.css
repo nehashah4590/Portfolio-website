@@ -1,0 +1,62 @@
+.contact_container{
+    display:flex;
+    height: 500px;
+    margin: 50px;
+}
+.para{
+    margin: 30px;
+}
+.para h2{
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.para p{
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    padding: 20px 10vh;
+
+}
+input{
+    display: block;
+    padding: 10px 180px;
+    background-color: #f3f5f6;
+    border: none;
+}
+.form_inputs{
+    padding: 10px;
+}
+.button{
+    background-color: #fff;
+    border: none;
+    display: flex;
+}
+.btn_button{
+     border: 2px solid black;
+     margin: 2px;
+     padding: 20px;
+     background-color: #fff;
+
+}
+.btn_button:hover{
+    background-color: #f3f5f6;
+}
+@media all and (max-width: 800px) {
+    .contact_container{
+        display: block;
+    }
+    .contact_container{
+        
+        height: 600px;
+       
+    }
+  }

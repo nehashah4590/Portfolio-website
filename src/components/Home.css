@@ -1,0 +1,111 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows:minmax(80PX, auto) ;
+    grid-template-areas:"header header header";
+    grid-gap: 20px;
+     
+}   
+
+.item1{
+    margin-top: 40px;
+    /* background-color:blue ; */
+    grid-area: header;
+}
+.item2{
+    /* background-color:rgb(161, 204, 210) ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item2 img{
+    height: 500px;
+    width: auto;
+   
+}
+
+.intro{
+    /* background-color:rgb(161, 204, 210) ; */
+    padding: 170px 0px;
+  
+    
+}
+.intro h1{
+   font-size: 5em;
+   font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.intro p{
+   font-size: 1.1em;
+   font-weight: lighter;
+   padding: 2px;
+    /* font-family: 'Roboto', sans-serif;  */
+}
+
+.resume {
+    margin-top: 50px;
+    padding: 5px 50px;
+    height: auto;
+    background-color:#38373c;
+    color: white;
+    height: 200px;
+
+}
+.quote{
+    margin-top: 50px;
+    padding: 50px;
+    background-color:#38373c;
+    color: white;
+    height: auto;
+   
+}
+.quote > .bold{
+    font-size: 200%;
+}
+.quote p{
+   display:block;
+   text-align: center;
+   padding: 10px;
+}
+.resume h2{
+    padding: 5px 20px;
+    padding-top: 40px;
+}
+
+.resume p{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.education{
+    margin-top: 40px;
+    height: auto;
+}
+.education h2{
+    padding: 20px 80px;
+}
+.education p{
+    padding: 5px 80px ;
+
+}
+.heading{
+    font-weight: bolder;
+}
+@media all and (max-width: 800px){
+  .main{
+    margin-top: 100px;
+    display: block;
+  }
+  .intro h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .intro p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
