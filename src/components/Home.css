@@ -46,12 +46,12 @@
 .resume {
     margin-top: 50px;
     padding: 5px 50px;
-    height: auto;
     background-color:#38373c;
     color: white;
-    height: 200px;
-
+    height: auto;
 }
+
+
 .quote{
     margin-top: 50px;
     padding: 50px;
@@ -75,6 +75,7 @@
 
 .resume p{
     padding: 20px;
+    padding-bottom: 45px;
     justify-content: center;
     align-items: center;
     

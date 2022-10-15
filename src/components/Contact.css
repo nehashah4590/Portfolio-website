@@ -28,13 +28,16 @@
 }
 input{
     display: block;
-    padding: 10px 180px;
+    padding: 10px;
+    padding-left: 2px;
     background-color: #f3f5f6;
     border: none;
+    width: 100%;
 }
 .form_inputs{
     padding: 10px;
 }
+
 .button{
     background-color: #fff;
     border: none;
