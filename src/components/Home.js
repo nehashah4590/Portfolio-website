@@ -1,17 +1,21 @@
 import React from 'react'
 import img1 from './images/img1.jpg';
 import './Home.css';
+
 function Home() {
     return (
         <>
             <div className="main">
+          
                 <div className='item1'> </div>
                 <div className='item2'>
                     <img src={img1} alt="" /></div>
                 <div className='item3'>
                     <div className='intro'>
+                   
                         <h1>Neha </h1>
                         <h1> Shah</h1>
+                        
                         <p>Frontend Developer / Graphic Designer</p>
                         <p>ns457989@gmail.com</p>
                         <p>Dharan,Nepal</p>
@@ -37,24 +41,24 @@ function Home() {
                <p  className='heading'>High School, Science</p>
                  <p>Vishwa Adarsha College , Itahari.
                     Year of completion: 2019</p>
-                   <p> CGPA: 3.48/4</p>
+                   <p> GPA: 3.48/4</p>
                </div>
 
                <div >
                <p  className='heading'>     Secondary (X)</p>
                 <p>    Namuna Samudiyik English Boarding School (NEB board)</p>
                   <p>  Year of completion: 2017
-                    CGPA: 3.5/4       </p>
+                    GPA: 3.5/4       </p>
                </div>
              
             </div>
 
             <div className='quote'>
-                <p className='bold'>If You Say You Can Or You Can't You Are Right Either Way.
+                <p className='bold'>“Your time is limited, so don't waste it living someone else's life.”
                 </p>
-                <p>- Henry Ford</p>
+                <p>- Steve Jobs</p>
             </div>
-
+    
 
         </>
     )

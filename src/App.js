@@ -6,12 +6,14 @@ import Contact from './components/Contact';
 import ErrorPage from './components/ErrorPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import diya from './components/images/deewali.png';
 
 function App() {
   return (
    <>
      <Router>
       <Navbar/>
+      <img  className="diya" src={diya} alt=""  height="150px" width="150px" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Projects />} />

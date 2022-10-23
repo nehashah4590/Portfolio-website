@@ -8,3 +8,8 @@
   background-color:#abb0f0 ;
   height: 100vh;
 }
+.diya{
+  position: fixed;
+  right: 0;
+  bottom:0 ;
+}

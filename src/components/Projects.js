@@ -17,7 +17,7 @@ function Projects() {
         <p>This a IT_Company website</p>
         </div>
         <div className='project_item3 item'>
-        <a href=''><img src={textutils} alt="Text-Utils website" /></a>
+        <a href='https://github.com/nehashah4590/textUtils'><img src={textutils} alt="Text-Utils website" /></a>
         <p>This a Text-Utils app for simple text manipulation like copy, paste, Uppercase, Lowercase, clear, replace a word, remove text gap.</p>
         </div>
       

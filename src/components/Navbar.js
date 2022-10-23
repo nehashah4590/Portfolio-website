@@ -7,6 +7,7 @@ function Navbar() {
     return (
         <>
         <div className='Navbar'>
+       
             <div className= {`nav-list ${isOpen && "open"}`}>
                 <Link className="nav-items" to="/">Home</Link>
                 <Link className="nav-items" to="/project">Projects</Link>
