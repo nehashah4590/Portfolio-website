@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37389a81.css",
+    "main.js": "/static/js/main.690832bd.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/img1.jpg": "/static/media/img1.d54b5a2b4cd1d5aa10ad.jpg",
+    "static/media/IT-Company.png": "/static/media/IT-Company.29d97252f00184a54efb.png",
+    "static/media/Text-Utils.png": "/static/media/Text-Utils.76954c87599662e91d4a.png",
+    "static/media/Calculator.png": "/static/media/Calculator.24cf32ba2f8ee86967cb.png",
+    "index.html": "/index.html",
+    "main.37389a81.css.map": "/static/css/main.37389a81.css.map",
+    "main.690832bd.js.map": "/static/js/main.690832bd.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37389a81.css",
+    "static/js/main.690832bd.js"
+  ]
+}
